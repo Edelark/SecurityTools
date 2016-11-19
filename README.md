@@ -1,2 +1,2 @@
 # SecurityTools
-Collections of security tools made by @EnriqueMoran and by @Edelark as open personal project
+Collections of security tools made by Seville DotNetClub
