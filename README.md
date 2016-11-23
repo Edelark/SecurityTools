@@ -3,8 +3,6 @@ Collections of security tools made by Seville DotNetClub
 
 Folders:
 
-SecurityTools
-
       SecurityTools
           ┣━━━Fingerprinting
                  ┗━━━━mails.py
