@@ -77,7 +77,7 @@ if __name__ == "__main__":  # Initializes PasswordGenerator class
     generator = PasswordGenerator(letterList, numberList, characterList, defaultLength)
 
 
-def settings():     # Not working
+def settings():
     """ [EN] Use your own parameters and lists by adding their items using commas.
     Example for letter list: a,b,c,d,e.
         [ES] Configura los parámetros y las listas añadiendo sus componentes mediante comas.
@@ -90,7 +90,11 @@ def settings():     # Not working
         characters = input("List of characters (separated by comma): ")
         newCharacterList = characters.split(',')
         newLength = int(input("Length: "))
-        generator = PasswordGenerator(newLetterList, newNumberList, newCharacterList, newLength)
+
+        generator.letters = newLetterList
+        generator.numbers = newNumberList
+        generator.characters = newCharacterList
+        generator.length = newLength
     except:
         print("Error creating generator, non valid inserted values.")
 
