@@ -5,8 +5,10 @@ Folders:
 
       SecurityTools
           ┣━━━Fingerprinting
-                 ┗━━━━mails.py
+          ┃      ┗━━━━mails.py
           ┣━━━Passwords
+          ┃      ┣━━━passwordGenerator.py
+          ┃      ┗━━━━PDFdecryptor.py
           ┗━━Pentesting
       
 All .py files are documented in two lenguajes, you can use help() method to see that.
