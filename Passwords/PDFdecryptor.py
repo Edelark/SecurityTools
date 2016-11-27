@@ -37,7 +37,7 @@ class decryptor():
             passwd = word.rstrip() 
             cont += 1
             if cont % 10000 == 0 and cont != 0:     # Show current password each 10000
-                print(" Tested " + str(cont) + " password. Current password: " + passwd)            
+                print(str(cont) + " passwords tested. Current password: " + passwd)            
             try:
                 if pdf.decrypt(passwd):     # If password is found, stop the script
                     print("\nPassword found: " + passwd)   
