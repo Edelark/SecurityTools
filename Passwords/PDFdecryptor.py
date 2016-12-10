@@ -54,7 +54,7 @@ class decryptor():
 
 
 if __name__ == "__main__":  # Initializes decryptor class
-    decryptor = decryptor('','')
+    decryptor = decryptor('DictionariesPath','TargetPath')    # Replace params with your paths!
 
 
 
