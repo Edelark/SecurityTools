@@ -36,3 +36,11 @@ decrypt("C:\\Users\\Enrique\\Desktop\\test\\dictionaries", "C:\\Users\\Enrique\\
 Password found: surculous
 Tested all 579 words from dictionary: dictionary2.txt. Last password tested: surculous
 </pre>
+
+## Fingerpronting
+Collection of tools to extract information from various sources.
+
+### mails.py
+Available methods:
+ - **find_mail(source,destination): ** This function find emails in a document and put all finded emails
+    into other file. -> (source,destination)
