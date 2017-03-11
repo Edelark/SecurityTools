@@ -42,5 +42,5 @@ Collection of tools to extract information from various sources.
 
 ### mails.py
 Available methods:
- - **find_mail(source,destination): ** This function find emails in a document and put all finded emails
+ - **find_mail(source,destination):** This function find emails in a document and put all finded emails
     into other file. -> (source,destination)
