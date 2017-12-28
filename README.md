@@ -10,6 +10,8 @@ Folders:
           ┃      ┣━━━passwordGenerator.py
           ┃      ┗━━━━PDFdecryptor.py
           ┗━━Pentesting
+          ┗━━ScanningFiles
+                  ┗━━━━scaner.py
       
 All .py files are documented in two lenguajes, you can use help() method to see that.
 
@@ -44,3 +46,8 @@ Collection of tools to extract information from various sources.
 Available methods:
  - **find_mail(source,destination):** This function find emails in a document and put all finded emails
     into other file. -> (source,destination)
+## ScanningFiles
+Collection of tools to scan files
+
+### scaner.py
+Scan a file in VirusTotal.
