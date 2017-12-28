@@ -1,6 +1,3 @@
-#############################################################
-#Recibe la ruta de un fichero y lo analiza con un antivirus.#
-#############################################################
 import requests
 import webbrowser
 openWeb = False #if True, open the result in a browser, if False, show the results in console
